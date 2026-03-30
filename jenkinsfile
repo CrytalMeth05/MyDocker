@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Checkout'){
             steps{
-                git url: 'https://gitlab.siescoms.in/mca25017/dockernew.git', branch:'main'
+                git url: 'https://github.com/CrytalMeth05/MyDocker.git', branch:'main'
             }
         }
 
